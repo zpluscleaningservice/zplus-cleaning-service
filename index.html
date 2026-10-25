@@ -1,52 +1,406 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Z Plus Cleaning Service</title>
+
+<title>Z Plus Cleaning Service | Kolkata</title>
+
+<meta name="description" content="Z Plus Cleaning Service provides home cleaning, office cleaning, pest control and housekeeping services across Kolkata and nearby areas.">
+
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;color:#222;background:#f5f9fc}
-header{background:#073b74;color:white;text-align:center;padding:25px 15px}
-header h1{margin:0;font-size:30px}
-header p{margin-bottom:0}
-.hero{text-align:center;padding:45px 18px;background:#e1f2ff}
-.hero h2{font-size:28px;color:#073b74}
-.hero p{font-size:17px;line-height:1.7}
-.services{padding:25px 15px;text-align:center}
-.cards{display:grid;grid-template-columns:1fr;gap:15px;max-width:650px;margin:auto}
-.card{background:white;padding:22px;border-radius:12px;box-shadow:0 2px 8px #ddd}
-.card h3{color:#073b74}
-.contact{background:#073b74;color:white;text-align:center;padding:30px 15px}
-.btn{display:inline-block;background:#18a957;color:white;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px}
-.call{background:#ffb300;color:#222}
-footer{text-align:center;padding:15px;font-size:13px}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #f5f8fc;
+}
+
+header {
+    background: #063b72;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+nav {
+    background: #052d56;
+    text-align: center;
+    padding: 12px 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0878bd, #063b72);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px 5px 0;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.call {
+    background: #ffbd35;
+    color: #17202a;
+}
+
+.whatsapp {
+    background: #20b85a;
+    color: white;
+}
+
+section {
+    padding: 45px 18px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2.section-title {
+    text-align: center;
+    color: #063b72;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    padding: 24px 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000012;
+    text-align: center;
+}
+
+.card h3 {
+    color: #0878bd;
+    margin-bottom: 10px;
+}
+
+.areas {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.area-group {
+    margin-bottom: 22px;
+}
+
+.area-group h3 {
+    color: #0878bd;
+    margin-bottom: 8px;
+}
+
+.area-group p {
+    color: #444;
+    line-height: 2;
+}
+
+.about {
+    text-align: center;
+}
+
+.contact {
+    background: #e8f3fc;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    background: #052d56;
+    color: white;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 32px 14px;
+    }
+}
 </style>
 </head>
+
 <body>
+
 <header>
-<h1>Z PLUS CLEANING SERVICE</h1>
-<p>Professional Cleaning & Facility Services</p>
+    <h1>Z PLUS CLEANING SERVICE</h1>
+    <p>Your Trusted Cleaning & Pest Control Partner</p>
+    <p>Serving Kolkata & Nearby Areas</p>
 </header>
-<section class="hero">
-<h2>A Cleaner Space, A Better Life!</h2>
-<p>Reliable and professional services for your home, office and business.</p>
-<a class="btn" href="https://wa.me/919123970592?text=Hello%20Z%20Plus%20Cleaning%20Service">WhatsApp Us</a>
-<a class="btn call" href="tel:9123970592">Call Now</a>
-</section>
-<section class="services">
-<h2>Our Services</h2>
-<div class="cards">
-<div class="card"><h3>🧹 Cleaning Services</h3><p>Home, office and commercial space cleaning.</p></div>
-<div class="card"><h3>🐜 Pest Control</h3><p>Professional pest control services for your space.</p></div>
-<div class="card"><h3>🏢 Housekeeping</h3><p>Reliable housekeeping solutions for homes and businesses.</p></div>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Our Services</a>
+    <a href="#areas">Service Areas</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>Professional Cleaning Services in Kolkata</h2>
+
+    <p>
+        Looking for reliable cleaning services?
+        We provide home cleaning, office cleaning,
+        pest control and housekeeping services
+        across Kolkata and nearby areas.
+    </p>
+
+    <a class="button call" href="tel:+919123970592">
+        Call Now
+    </a>
+
+    <a class="button whatsapp"
+       href="https://wa.me/919123970592?text=Hello%20Z%20Plus%20Cleaning%20Service%2C%20I%20need%20your%20service."
+       target="_blank" rel="noopener">
+        WhatsApp Us
+    </a>
 </div>
+
+<section id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🏠 Home Cleaning</h3>
+            <p>
+                Professional home cleaning to help keep
+                your home clean, fresh and comfortable.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏢 Office Cleaning</h3>
+            <p>
+                Cleaning solutions for offices,
+                workplaces and commercial properties.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🐜 Pest Control</h3>
+            <p>
+                Pest control services for homes,
+                offices and other suitable properties.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🧹 Housekeeping</h3>
+            <p>
+                Housekeeping support for residential
+                and commercial properties.
+            </p>
+        </div>
+
+    </div>
 </section>
-<section class="contact">
-<h2>Book Your Service Today!</h2>
-<p>Contact us for enquiries and bookings.</p>
-<p><strong>Phone: 9123970592</strong></p>
-<a class="btn" href="https://wa.me/919123970592?text=Hello%20Z%20Plus%20Cleaning%20Service">Chat on WhatsApp</a>
+
+<section id="areas">
+    <h2 class="section-title">Our Service Areas</h2>
+
+    <p style="text-align:center; margin-bottom:22px;">
+        We serve customers across Kolkata and selected
+        nearby areas. Contact us to confirm availability
+        in your location.
+    </p>
+
+    <div class="areas">
+
+        <div class="area-group">
+            <h3>New Town & Rajarhat</h3>
+            <p>
+                New Town, Rajarhat, Action Area I,
+                Action Area II, Action Area III,
+                Eco Park, Chinar Park, Kaikhali,
+                Teghoria, Baguiati, Hatiara,
+                Kestopur, Jatragachi, Airport Area.
+            </p>
+        </div>
+
+        <div class="area-group">
+            <h3>Salt Lake & Bidhannagar</h3>
+            <p>
+                Salt Lake Sector I, Sector II,
+                Sector III, Sector IV, Sector V,
+                Bidhannagar, Karunamoyee,
+                City Centre, Nicco Park, College More.
+            </p>
+        </div>
+
+        <div class="area-group">
+            <h3>North Kolkata</h3>
+            <p>
+                Dum Dum, Dum Dum Cantonment,
+                Nagerbazar, Lake Town, Bangur Avenue,
+                Belgachia, Shyambazar, Hatibagan,
+                Ultadanga, Baranagar, Dakshineswar,
+                Sinthi, Cossipore.
+            </p>
+        </div>
+
+        <div class="area-group">
+            <h3>Central Kolkata</h3>
+            <p>
+                Esplanade, Park Street, Sealdah,
+                Bowbazar, Burrabazar, College Street,
+                Entally, Tangra, Topsia, BBD Bagh.
+            </p>
+        </div>
+
+        <div class="area-group">
+            <h3>South Kolkata</h3>
+            <p>
+                Garia, New Garia, Jadavpur,
+                Tollygunge, Behala, Thakurpukur,
+                Kasba, Gariahat, Ballygunge,
+                Dhakuria, Bansdroni, Narendrapur,
+                Sonarpur.
+            </p>
+        </div>
+
+        <div class="area-group">
+            <h3>North 24 Parganas</h3>
+            <p>
+                Barasat, Madhyamgram, New Barrackpore,
+                Birati, Sodepur, Khardaha, Panihati,
+                Agarpara, Titagarh, Barrackpore,
+                Naihati, Habra, Ashoknagar.
+            </p>
+        </div>
+
+        <div class="area-group">
+            <h3>Howrah & Nearby Areas</h3>
+            <p>
+                Howrah, Shibpur, Santragachi,
+                Liluah, Belur, Bally, Domjur.
+            </p>
+        </div>
+
+    </div>
 </section>
-<footer>© 2026 Z Plus Cleaning Service. All rights reserved.</footer>
+
+<section class="about">
+    <h2 class="section-title">Why Choose Z Plus?</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Professional Service</h3>
+            <p>Service tailored to your cleaning needs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Affordable Pricing</h3>
+            <p>Contact us for a suitable service quotation.</p>
+        </div>
+
+        <div class="card">
+            <h3>Easy Booking</h3>
+            <p>Call or WhatsApp to discuss your requirements.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Book Your Service Today!</h2>
+
+    <p>
+        Need home cleaning, office cleaning,
+        pest control or housekeeping?
+    </p>
+
+    <p><strong>Z Plus Cleaning Service</strong></p>
+
+    <p>
+        Phone:
+        <a href="tel:+919123970592">9123970592</a>
+    </p>
+
+    <a class="button call" href="tel:+919123970592">
+        Call Now
+    </a>
+
+    <a class="button whatsapp"
+       href="https://wa.me/919123970592?text=Hello%2C%20I%20want%20to%20book%20a%20service."
+       target="_blank" rel="noopener">
+        Book on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p><strong>Z PLUS CLEANING SERVICE</strong></p>
+    <p>Cleaning | Pest Control | Housekeeping</p>
+    <p>Serving Kolkata & Nearby Areas</p>
+    <p>Phone: 9123970592</p>
+    <p>© 2026 Z Plus Cleaning Service. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
